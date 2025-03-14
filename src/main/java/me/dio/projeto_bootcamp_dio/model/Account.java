@@ -38,19 +38,19 @@ public class Account {
         this.agency = agency;
     }
 
-    public double getBalance() {
+    public BigDecimal getBalance() {
         return balance;
     }
 
-    public void setBalance(double balance) {
+    public void setBalance(BigDecimal balance) {
         this.balance = balance;
     }
 
-    public double getLimit() {
+    public BigDecimal getLimit() {
         return limit;
     }
 
-    public void setLimit(double limit) {
+    public void setLimit(BigDecimal limit) {
         this.limit = limit;
     }
 }
